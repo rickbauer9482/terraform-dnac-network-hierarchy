@@ -75,9 +75,9 @@ resource "dna_site" "floor_1" {
     name        = "Floor 1"
     parent_name = "Global/USA/New Jersey/29HWT"
     rf_model = "Drywall Office Only"
-    height = 100.1
-    length = 100.2
-    width = 100.1
+    height = 10.1
+    length = 200.2
+    width = 400.1
   }
 }
 output "site_floor_1" {
