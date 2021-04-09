@@ -6,3 +6,12 @@ terraform {
     }
   }
 }
+terraform {
+  backend "remote" {
+    organization = "TSA-EN-AI"
+
+    workspaces {
+      name = "terraform-dnac-network-hierarchy"
+    }
+  }
+}
