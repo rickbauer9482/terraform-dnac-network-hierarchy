@@ -4,18 +4,18 @@
 provider "dnacenter" {
   # Cisco DNA Center user name
   # username = "admin"
-  username = "DNAC_USERNAME"
+  # username = "DNAC_USERNAME"
   # it can be set using the environment variable DNAC_USERNAME
 
   # Cisco DNA Center password
-  # password = "@$%#$^$%^^"
-  password = "DNAC_PASSWORD"
+  # password = "c15c0123!"
+  # password = "DNAC_PASSWORD"
   # it can be set using the environment variable DNAC_PASSWORD
 
   # Cisco DNA Center base URL, FQDN or IP
-  # base_url = "https://x.x.x.x"
-  base_url = "DNAC_BASE_URL"
+  # base_url = "{DNAC_BASE_URL}"
   # it can be set using the environment variable DNAC_BASE_URL
+
 
   # Boolean to enable debugging
   debug = "false"
@@ -32,7 +32,7 @@ resource "dna_cli_credential" "response" {
   provider = dnacenter
   item {
     username        = "{DNAC_USERNAME}"
-    password        = "{DNAC_USERNAME}"
+    password        = "{DNAC_PASSWORD}"
     credential_type = "APP"
   }
 }
