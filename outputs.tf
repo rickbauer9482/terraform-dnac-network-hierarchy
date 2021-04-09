@@ -29,8 +29,8 @@ provider "dnacenter" {
 resource "dna_cli_credential" "response" {
   provider = dnacenter
   item {
-    username        = "{var.username}"
-    password        = "{var.password}"
+    username        = "${var.username}"
+    password        = "${var.password}"
     credential_type = "APP"
   }
 }
