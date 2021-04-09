@@ -24,6 +24,15 @@ provider "dnacenter" {
   # it can be set using the environment variable DNAC_SSL_VERIFY
 }
 
+variable "user_information" {
+  type = object({
+    username = "DNAC_USERNAME"
+    password = "DNAC_PASSWORD"
+    base_url = "DNAC_BASE_URL"
+  })
+  sensitive = true
+}
+
 # Configure CLI credential
 
 resource "dna_cli_credential" "response" {
