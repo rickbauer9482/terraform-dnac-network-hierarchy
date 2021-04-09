@@ -3,15 +3,15 @@
 
 provider "dnacenter" {
   # Cisco DNA Center user name
-  username = "DNAC_USERNAME"
+  # username = "XXXXXX"
   # it can be set using the environment variable DNAC_USERNAME
 
   # Cisco DNA Center password
-  password = "DNAC_PASSWORD"
+  #password = "XXXXXXX"
   # it can be set using the environment variable DNAC_PASSWORD
 
   # Cisco DNA Center base URL, FQDN or IP
-  base_url = "DNAC_BASE_URL"
+  ## base_url = "https://x.x.x.x"
   # it can be set using the environment variable DNAC_BASE_URL
 
 
