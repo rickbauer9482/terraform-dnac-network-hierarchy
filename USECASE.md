@@ -1,18 +1,24 @@
-{{Use Case Title}}
-{{Use Case SubTitle}
+Description
+This sample application was developed with the DNA Center Provider for Terrafrom and requires Cisco DNA Center. The workflow creates the DNA Center site hierarchy (site, building, and floor) using Infrastructure as Code (IaC) tooling for design acceleration and consistency.
 
-(optional) Describe the use case for Automation Exchange entries here. DevNet Automation Exchange provides shared code repositories for gathering information from your network, performing audits, activating policy changes, or managing applications, users, or devices. This file serves as a template to collect related links for Automation Exchange submissions.
+The Challenge:
+•	Day0 DNA Center Design configuration
+•	Optimize DNA Center Site Hierarchy process 
+•	Reduce DNA Center adoption time 
 
-Use GitHub Flavored Markdown formatting in this file.
+The Goal:
+•	Automate the workflow to define and configure DNA Center site hierarchy declaratively so that no Network Engineer time is required.
 
-White Paper
-Provide links to related white papers: CHANGE LINK AND TEXT TO REAL WHITE PAPER
+The Solution:
+•	Use DNA Center Terraform provider to facilitate the declarative configuration of Cisco DNA Center.
 
-Related Sandbox
-Provide a link to a related DevNet Sandbox: CHANGE EXAMPLE SANDBOX Multi-IOS Cisco Test Network Sandbox
+The Results:
+•	Expedite DNA Center deployments
+•	Increased accuracy and site design standardization
 
-Links to DevNet Learning Labs
-Provide links to related Learning Labs or modules on DevNet: CHANGE EXAMPLE Introduction to Model Driven Programmability(ex: NETCONF/YANG)
+Business Summary
+Simplify the Site creation with automation tooling based on Terraform and Cisco DNA Center REST APIs.
 
-Solutions on Ecosystem Exchange
-Provide links to related solutions on DevNet Ecosystem Exchange: CHANGE EXAMPLE Physical Density Controls
+CONTRIBUTORS
+
+Rick Bauer
