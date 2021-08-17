@@ -59,7 +59,7 @@ The `terraform plan` command is a preflight test of what you are declaring in yo
 
 ![](images/terraform-plan-apply.gif)
 
-![](images/DNAC-Before.gif)
+![](images/DNAC-After.gif)
 
 # Terraform Destroy 
 
@@ -67,5 +67,5 @@ Just in name terraform destroy is my favorite. This option allows you to undo th
 
 ![](images/terraform-destroy.gif)
 
-![](images/DNAC-After.gif)
+![](images/DNAC-Before.gif)
 
