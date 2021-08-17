@@ -29,4 +29,4 @@ Terraform is a provisioning tool, that you would use it to provision the servers
 
 # Terraform vs. Ansible
 
-![](images/teraform-ansible.jpeg)
+![](images/teraform-ansible.jpg)
