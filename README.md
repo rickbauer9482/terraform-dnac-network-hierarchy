@@ -50,3 +50,22 @@ HashiCorp has robust documentation, here is the link to the Terraform Install Gu
 Execute the `terraform` command in the shell to verify the install. This is the equivalent of output from the `terraform -help` command.
 
 ![](images/terraform-1.gif)
+
+To run the lab you will need an instance of Cisco DNA Center and Terraform installed on your workstation or development platform. You can use your own Cisco DNA Center or you can use the [dCloud Sandbox](https://dcloud2-rtp.cisco.com/content/demo/759521?returnPathTitleKey=content-view)
+
+# Terraform Plan and Apply
+
+The `terraform plan` command is a preflight test of what you are declaring in your configuration and `terraform apply` to apply the declared configuration to your infrastructure. 
+
+![](images/terraform-plan-apply.gif)
+
+![](images/DNAC-Before.gif)
+
+# Terraform Destroy 
+
+Just in name terraform destroy is my favorite. This option allows you to undo the configuration defined in your plan and restore the infrastructure to its preexisting state. 
+
+![](images/terraform-destroy.gif)
+
+![](images/DNAC-After.gif)
+
