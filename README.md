@@ -43,10 +43,10 @@ Terraform is a provisioning tool, that you would use it to provision the servers
 
 # Installing Terraform
 
-Terraform is supported across Windows, Linux/Unix and MacOS. The downloads for the latest version can be found here or installed with the popular package managers. Terraform is distributed as a single binary. To install Terraform unzip the binary and move it to a directory and add the binary’s location to your PATH. On Linux and MacOS systems you can do this through the command $PATH. 
+Terraform is supported across Windows, Linux/Unix and MacOS. The downloads for the latest version can be found [here](https://www.terraform.io/downloads.html) or installed with the popular package managers. Terraform is distributed as a single binary. To install Terraform unzip the binary and move it to a directory and add the binary’s location to your PATH. On Linux and MacOS systems you can do this through the command `$PATH`. 
 
 HashiCorp has robust documentation, here is the link to the Terraform Install Guide
 
-Execute the terraform command in the shell to verify the install. This is the equivalent of output from the terraform -help command.
+Execute the `terraform` command in the shell to verify the install. This is the equivalent of output from the `terraform -help` command.
 
 ![](images/terraform-1.gif)
