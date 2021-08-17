@@ -1,4 +1,4 @@
-# Cisco DNA Center with Terraform Infrastructure as Code 
+# Cisco DNA Center with Terraform Infrastructure as Code (IaC)
 Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services. Terraform codifies cloud APIs into declarative configuration files. Terraform allows infrastructure to be expressed as code in a simple, human readable language called HCL (HashiCorp Configuration Language). It reads configuration files and provides an execution plan of changes, which can be reviewed for safety and then applied and provisioned.
 
 Extensible providers allow Terraform to manage a broad range of resources, including IaaS, PaaS, SaaS, and hardware services.
@@ -30,3 +30,23 @@ Terraform is a provisioning tool, that you would use it to provision the servers
 # Terraform vs. Ansible
 
 ![](images/terraform-ansible.jpg)
+
+# What are the parts of Terraform?
+
+•	The binary (terraform)
+
+•	The config (main.tf)
+
+•	The provider which tells Terraform how to interact with your infrastructure (defined in main.tf and Initialized w/ terraform init)
+
+•	The plan (YourPlanName.tf) how you want your infrastructure to look
+
+# Installing Terraform
+
+Terraform is supported across Windows, Linux/Unix and MacOS. The downloads for the latest version can be found here or installed with the popular package managers. Terraform is distributed as a single binary. To install Terraform unzip the binary and move it to a directory and add the binary’s location to your PATH. On Linux and MacOS systems you can do this through the command $PATH. 
+
+HashiCorp has robust documentation, here is the link to the Terraform Install Guide
+
+Execute the terraform command in the shell to verify the install. This is the equivalent of output from the terraform -help command.
+
+![](images/terraform-1.gif)
