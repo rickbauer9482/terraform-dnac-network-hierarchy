@@ -1,3 +1,9 @@
+Infrastructure as Code with Terraform
+Terraform is an increasingly popular open-source infrastructure as code software tool built by HashiCorp. It enables administrators to define, provision and manage infrastructure across multiple cloud and datacenter resources. Terraform takes an infrastructure as code approach by using using a high-level configuration language known as Hashicorp Configuration Language or JSON to define the resources. Terraform differs from traditional configuration management tools such as Ansible as it is known for keeping state of the infrastructure, once you define your desired state through Terraform config files. Terraform looks to build your infrastructure, records its current state and always looks to maintain the desired state the config specifies. 
+While Terraform has been increasingly used in the cloud space to provision infrastructure such as VMWare, AWS and Azure, we're starting to see more and more usage of this with Cisco infrastructure with support today for ASA firewalls, Cisco ACI in the data center, and DNA Center in the campus. Within these exercises we'll look to focus on how Terraform can be used to configure DNA Center and provision resources in today's enterprise IT environment.
+![image](https://user-images.githubusercontent.com/19711276/129750649-b4d06cef-a43b-49bd-9e92-d62ccfbcb3f2.png)
+
+
 Terraform Cloud Getting Started Guide Example
 
 This is an example Terraform configuration intended for use with the Terraform Cloud Getting Started Guide.
