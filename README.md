@@ -28,5 +28,5 @@ Tools like Ansible, Puppet, Chef, and SaltStack are configuration management too
 Terraform is a provisioning tool, that you would use it to provision the servers as well as the rest of your infrastructure (load balancers, databases, network infrastructure, etc) where the configuration would be done with another tool.
 
 # Terraform vs. Ansible
- 
 
+![](images/teraform-ansible.jpeg)
