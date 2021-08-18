@@ -16,25 +16,25 @@ This sample application was developed with the DNA Center Provider for Terrafrom
 
 The Challenge:
 
-• Day0 DNA Center Design configuration 
+  • Day0 DNA Center Design configuration 
 
-• Optimize DNA Center Site Hierarchy process 
+  • Optimize DNA Center Site Hierarchy process 
 
-• Reduce DNA Center adoption time
+  • Reduce DNA Center adoption time
 
 The Goal:
 
-• Automate the workflow to define and configure DNA Center site hierarchy declaratively so that no Network Engineer time is required.
+  • Automate the workflow to define and configure DNA Center site hierarchy declaratively so that no Network Engineer time is required.
 
 The Solution:
 
-• Use DNA Center Terraform provider to facilitate the declarative configuration of Cisco DNA Center.
+  • Use DNA Center Terraform provider to facilitate the declarative configuration of Cisco DNA Center.
 
 The Results:
 
-• Expedite DNA Center deployments 
+  • Expedite DNA Center deployments 
 
-• Increased accuracy and site design standardization
+  • Increased accuracy and site design standardization
 
 Business Summary:
 
@@ -44,15 +44,15 @@ Simplify the Site creation with automation tooling based on Terraform and Cisco 
 
 Declarative vs. Imperative (Procedural)
 
-•	Declarative configuration is the description of the how the system should look or operate
+  •	Declarative configuration is the description of the how the system should look or operate
 
-•	Imperative configuration is the configuration steps in sequence to make the system operate
+  •	Imperative configuration is the configuration steps in sequence to make the system operate
 
 Immutable vs. Mutable
 
-•	Immutable – not to be changed, so rather than modifying the configuration the entire component is replaced which makes it more reproducible and eliminate configuration drift (Snowflakes)
+  •	Immutable – not to be changed, so rather than modifying the configuration the entire component is replaced which makes it more reproducible and eliminate         configuration drift (Snowflakes)
 
-•	Mutable – the configuration can be modified so there is the risk of drift and configuration control must be addressed to ensure all components are configured the same
+  •	Mutable – the configuration can be modified so there is the risk of drift and configuration control must be addressed to ensure all components are configured     the same
 
 # Why Terraform and not something else?
 Tools like Ansible, Puppet, Chef, and SaltStack are configuration management tools, that are used to install and manage software on existing servers. 
@@ -65,26 +65,26 @@ Terraform is a provisioning tool, that you would use it to provision the servers
 
 # What are the parts of Terraform?
 
-•	The binary (terraform)
+  •	The binary (terraform)
 
-•	The config (main.tf)
+  •	The config (main.tf)
 
-•	The provider which tells Terraform how to interact with your infrastructure (defined in main.tf and Initialized w/ terraform init)
+  •	The provider which tells Terraform how to interact with your infrastructure (defined in main.tf and Initialized w/ terraform init)
 
-•	The plan (YourPlanName.tf) how you want your infrastructure to look
+  •	The plan (YourPlanName.tf) how you want your infrastructure to look
 
 # Getting Started
 The four steps that we will investigate in the lab are;
 
-•	Installing Terraform
+  •	Installing Terraform
 
-• Adding the provider for the Cisco DNA Center - Init
+  • Adding the provider for the Cisco DNA Center - Init
 
-•	Testing the Plan - Plan
+  •	Testing the Plan - Plan
 
-•	Applying the Plan - Apply
+  •	Applying the Plan - Apply
 
-•	Removing the Plan - Destroy
+  •	Removing the Plan - Destroy
 
 # Installing Terraform
 
