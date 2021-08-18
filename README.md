@@ -10,6 +10,30 @@ There is tremendous potential using Terraform with Cisco DNA Center to improve y
 # What are we going to do?
 In this lab we will explore how Terraform can be used to design and configure Cisco DNA Center site hierarchy to accelerate your Cisco DNA Center adoption. 
 
+Description:
+
+This sample application was developed with the DNA Center Provider for Terrafrom and requires Cisco DNA Center. The workflow creates the DNA Center site hierarchy (site, building, and floor) using Infrastructure as Code (IaC) tooling for design acceleration and consistency.
+
+The Challenge:
+
+• Day0 DNA Center Design configuration • Optimize DNA Center Site Hierarchy process • Reduce DNA Center adoption time
+
+The Goal:
+
+• Automate the workflow to define and configure DNA Center site hierarchy declaratively so that no Network Engineer time is required.
+
+The Solution:
+
+• Use DNA Center Terraform provider to facilitate the declarative configuration of Cisco DNA Center.
+
+The Results:
+
+• Expedite DNA Center deployments • Increased accuracy and site design standardization
+
+Business Summary:
+
+Simplify the Site creation with automation tooling based on Terraform and Cisco DNA Center REST APIs.
+
 # Some terms to understand
 
 Declarative vs. Imperative (Procedural)
