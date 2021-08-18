@@ -67,9 +67,10 @@ Execute the `terraform` command in the shell to verify the install. This is the 
 To run the lab you will need an instance of Cisco DNA Center and Terraform installed on your workstation or development platform. You can use your own Cisco DNA Center or you can use the [dCloud Sandbox](https://dcloud2-rtp.cisco.com/content/demo/759521?returnPathTitleKey=content-view)
 
 # Terraform Init 
+
 This is the process `terraform init` of adding a Provider to be used with different integrations in Terraform. Terraform has a registry of providers that you can use for your IaC projects [Terraform Registry](https://registry.terraform.io/browse/providers). The Cisco DNA Center provider can be found [here](https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/latest) along with sample code to build your plans and documentation for the resources and data sources found in the provider.
 
-
+![](images/terraform-init.gif)
 
 # Terraform Plan and Apply
 
