@@ -91,4 +91,4 @@ Just in name terraform destroy is my favorite. This option allows you to undo th
 ![](images/DNAC-After.gif)
 
 # License
-This project is licensed to you under the terms of the [Cisco Sample Code License](LICENSE)
+This project is licensed to you under the terms of the [Cisco Sample Code License](LICENSE).
