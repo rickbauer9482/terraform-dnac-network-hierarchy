@@ -16,7 +16,11 @@ This sample application was developed with the DNA Center Provider for Terrafrom
 
 The Challenge:
 
-• Day0 DNA Center Design configuration • Optimize DNA Center Site Hierarchy process • Reduce DNA Center adoption time
+• Day0 DNA Center Design configuration 
+
+• Optimize DNA Center Site Hierarchy process 
+
+• Reduce DNA Center adoption time
 
 The Goal:
 
@@ -28,7 +32,9 @@ The Solution:
 
 The Results:
 
-• Expedite DNA Center deployments • Increased accuracy and site design standardization
+• Expedite DNA Center deployments 
+
+• Increased accuracy and site design standardization
 
 Business Summary:
 
