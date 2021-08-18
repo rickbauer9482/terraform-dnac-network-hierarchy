@@ -73,6 +73,8 @@ Terraform is a provisioning tool, that you would use it to provision the servers
 
   •	The plan (YourPlanName.tf) how you want your infrastructure to look
 
+[Sample code for the lab](exercise/)
+
 # Getting Started
 The four steps that we will investigate in the lab are;
 
