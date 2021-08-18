@@ -41,6 +41,19 @@ Terraform is a provisioning tool, that you would use it to provision the servers
 
 •	The plan (YourPlanName.tf) how you want your infrastructure to look
 
+# Getting Started
+The four steps that we will investigate in the lab are;
+
+•	Installing Terraform
+
+• Adding the provider for the Cisco DNA Center - Init
+
+•	Testing the Plan - Plan
+
+•	Applying the Plan - Apply
+
+•	Removing the Plan - Destroy
+
 # Installing Terraform
 
 Terraform is supported across Windows, Linux/Unix and MacOS. The downloads for the latest version can be found [here](https://www.terraform.io/downloads.html) or installed with the popular package managers. Terraform is distributed as a single binary. To install Terraform unzip the binary and move it to a directory and add the binary’s location to your PATH. On Linux and MacOS systems you can do this through the command `$PATH`. 
@@ -52,6 +65,11 @@ Execute the `terraform` command in the shell to verify the install. This is the 
 ![](images/terraform-1.gif)
 
 To run the lab you will need an instance of Cisco DNA Center and Terraform installed on your workstation or development platform. You can use your own Cisco DNA Center or you can use the [dCloud Sandbox](https://dcloud2-rtp.cisco.com/content/demo/759521?returnPathTitleKey=content-view)
+
+# Terraform Init 
+This is the process `terraform init` of adding a Provider to be used with different integrations in Terraform. Terraform has a registry of providers that you can use for your IaC projects [Terraform Registry](https://registry.terraform.io/browse/providers). The Cisco DNA Center provider can be found [here](https://registry.terraform.io/providers/cisco-en-programmability/dnacenter/latest) along with sample code to build your plans and documentation for the resources and data sources found in the provider.
+
+
 
 # Terraform Plan and Apply
 
