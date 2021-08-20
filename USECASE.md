@@ -2,7 +2,7 @@
 
 This sample application was developed with the DNA Center Provider for Terrafrom and requires Cisco DNA Center. The workflow creates the DNA Center site hierarchy (site, building, and floor) using Infrastructure as Code (IaC) tooling for design acceleration and consistency.
 
-[USECASE.md](https://github.com/rickbauer9482/terraform-dnac-network-hierarchy/blob/main/USECASE.md)
+Link to the [USECASE.md](https://github.com/rickbauer9482/terraform-dnac-network-hierarchy/blob/main/USECASE.md)
 
 # The Challenge:
 
@@ -29,11 +29,11 @@ Simplify the Site creation with automation tooling based on Terraform and Cisco 
 
 # Links to DevNet Learning Labs
 
-[Introduction to Cisco DNA Center REST APIs](https://developer.cisco.com/learning/modules/dnac-rest-apis)
+Link to [Introduction to Cisco DNA Center REST APIs](https://developer.cisco.com/learning/modules/dnac-rest-apis)
 
 # Related Sandbox
 
-[DNA-C sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/c3c949dc-30af-498b-9d77-4f1c07d835f9?diagramType=Topology)
+Link to [DNA-C sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/c3c949dc-30af-498b-9d77-4f1c07d835f9?diagramType=Topology)
 
 # CONTRIBUTORS
 
