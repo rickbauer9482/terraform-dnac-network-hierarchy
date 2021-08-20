@@ -12,7 +12,9 @@ In this lab we will explore how Terraform can be used to design and configure Ci
 
 Description:
 
-This sample application was developed with the DNA Center Provider for Terrafrom and requires Cisco DNA Center. The workflow creates the DNA Center site hierarchy (site, building, and floor) using Infrastructure as Code (IaC) tooling for design acceleration and consistency. [use case](https://github.com/rickbauer9482/terraform-dnac-network-hierarchy/blob/main/USECASE.md)
+This sample application was developed with the DNA Center Provider for Terrafrom and requires Cisco DNA Center. The workflow creates the DNA Center site hierarchy (site, building, and floor) using Infrastructure as Code (IaC) tooling for design acceleration and consistency. 
+
+[USECASE.md](https://github.com/rickbauer9482/terraform-dnac-network-hierarchy/blob/main/USECASE.md)
 
 The Challenge:
 
