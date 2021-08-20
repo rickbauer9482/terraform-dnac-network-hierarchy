@@ -27,6 +27,14 @@ This sample application was developed with the DNA Center Provider for Terrafrom
 
 Simplify the Site creation with automation tooling based on Terraform and Cisco DNA Center REST APIs.
 
+# Links to DevNet Learning Labs
+
+[Introduction to Cisco DNA Center REST APIs](https://developer.cisco.com/learning/modules/dnac-rest-apis)
+
+# Related Sandbox
+
+[DNA-C sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/c3c949dc-30af-498b-9d77-4f1c07d835f9?diagramType=Topology)
+
 # CONTRIBUTORS
 
 Rick Bauer
