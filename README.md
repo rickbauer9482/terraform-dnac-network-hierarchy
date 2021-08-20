@@ -12,7 +12,7 @@ In this lab we will explore how Terraform can be used to design and configure Ci
 
 Description:
 
-This sample application was developed with the DNA Center Provider for Terrafrom and requires Cisco DNA Center. The workflow creates the DNA Center site hierarchy (site, building, and floor) using Infrastructure as Code (IaC) tooling for design acceleration and consistency.
+This sample application was developed with the DNA Center Provider for Terrafrom and requires Cisco DNA Center. The workflow creates the DNA Center site hierarchy (site, building, and floor) using Infrastructure as Code (IaC) tooling for design acceleration and consistency. [use case](https://github.com/rickbauer9482/terraform-dnac-network-hierarchy/blob/main/USECASE.md)
 
 The Challenge:
 
@@ -121,6 +121,14 @@ Just in name terraform destroy is my favorite. This option allows you to undo th
 ![](images/terraform-destroy.gif)
 
 ![](images/DNAC-After.gif)
+
+# Links to DevNet Learning Labs
+
+[Introduction to Cisco DNA Center REST APIs](https://developer.cisco.com/learning/modules/dnac-rest-apis)
+
+# Related Sandbox
+
+[DNA-C sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/c3c949dc-30af-498b-9d77-4f1c07d835f9?diagramType=Topology)
 
 # License
 This project is licensed to you under the terms of the [Cisco Sample Code License](LICENSE).
